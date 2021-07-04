@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", "Arial", sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+main{
+    padding: 10px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    font-size: 38px;
+    line-height: 45px;
+    color: #161D25;
+}
+.text{
+    font-size: 22px;
+    line-height: 26px;
+    color: #5D7085;
+    margin-bottom: 68px;
+}
+.box-wrapper{
+    display: flex;
+}
+.box{
+    height: 601px;
+    margin-right: 6px;
+    padding: 72px 35px 36px 35px;
+    background-color: #FDC624;
+}
+.box:nth-child(4n){
+    margin-right: 0;
+}
+.box__img{
+    width: 197px;
+    height: 114px;
+    margin-bottom: 15px;
+}
+.box__title{
+    font-size: 21px;
+    line-height: 25px;
+    color: #fff;
+}
+.box__text{
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    margin-bottom: 27px;
+}
+.box__price{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.box__price sup{
+    font-size: 16px;
+}
+.checkbox-wrapper{
+    margin-bottom: auto;
+
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 19px;
+}
+.checkbox__img{
+    margin-right: 10px;
+}
+.checkbox__text{
+    font-size: 14px;
+    line-height: 16px;  
+}
+.btn{
+   display: inline-block;
+   text-decoration: none;
+   font-size: 14px;
+   line-height: 16px;
+   color: #fff;
+   border: 2px solid #fff;
+   padding: 13px 51px;
+}
+.btn:hover{
+  background-color: #fff;
+  color: skyblue;
+}
+.second{
+    background-color: #55DCE7;
+}
+.third{
+    background-color: #44A9FD;
+}
+.fourth{
+    background-color: #BFCEDC;
+}
